@@ -2,7 +2,6 @@ package studio2;
 import java.util.Scanner;
 
 public class Pi {
-
     static double distanceFromCenter(double x1, double y1) {
         return Math.sqrt(Math.pow((0 - x1), 2) + Math.pow((0 - y1), 2));
     }
