@@ -45,7 +45,7 @@ public class Ruin {
         }
 
         double ruinRate = ((double)ruins)/totalSimulations;
-        System.out.println("\nctual Ruin Rate: " + ruinRate);
+        System.out.println("\nActual Ruin Rate: " + ruinRate);
 
         if (winChance == 0.5) {
             expectedRuin = 1 - (startAmount/winLimit);
