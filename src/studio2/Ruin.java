@@ -42,8 +42,6 @@ public class Ruin {
             } else if (money >= winLimit ) {
                 System.out.println("Success");
             }
-
-
         }
 
         double ruinRate = ((double)ruins)/totalSimulations;
@@ -57,5 +55,4 @@ public class Ruin {
 
         System.out.println("Expected Ruin Rate " + expectedRuin);
     }
-
 }
